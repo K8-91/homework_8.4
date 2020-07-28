@@ -1,0 +1,32 @@
+h1{
+     color:black;
+     font-size: 35px;
+     font-style: strong;
+     background-color: mediumpurple;
+}
+h2{
+    color: darkslateblue;
+    style: strong;
+    font-size: 30px; 
+}
+h3{
+    color: black;
+    style: strong;
+    font-size: 25px;
+}
+  
+.name{
+    color: black;
+    font-size: 25px;
+    display: inline;
+}  
+.surname{
+    color: black;
+    font-size: 25px;
+    display: inline;
+}
+ul{
+    color: black;
+    font-size: 25px;
+    display: inline;
+}
