@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang = "pl">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>Witaj na mojej stronie domowej</h1>
+        <img src = "https://cf.ltkcdn.net/dance/images/std/231493-699x450-backup-dancer-career-information.jpg" alt = "moje zdjecie" title = "To własnie ja!">
+        <div id = "content">{% block content %}{% endblock %}</div>
+    </body>
+</html>
